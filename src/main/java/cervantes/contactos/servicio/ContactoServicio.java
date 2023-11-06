@@ -39,6 +39,6 @@ public class ContactoServicio implements IConttactosServicio{
     public void eliminarContacto(Contacto contacto) {
 
         contactoRepositorio.delete(contacto);
-        
+
     }
 }
